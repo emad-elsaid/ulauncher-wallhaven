@@ -1,9 +1,9 @@
 {
   "required_api_version": "^2.0",
-  "name": "com.github.emad.wallhaven",
+  "name": "com.github.emade-elsaid.wallhaven",
   "display_name": "Wallhaven Wallpaper Search",
   "description": "Search and set wallpapers from Wallhaven",
-  "developer_name": "Emad",
+  "developer_name": "Emad Elsaid",
   "icon": "images/icon.png",
   "options": {
     "query_debounce": 0.3
