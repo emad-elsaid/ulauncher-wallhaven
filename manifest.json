@@ -1,0 +1,34 @@
+{
+  "required_api_version": "^2.0",
+  "name": "com.github.emad.wallhaven",
+  "display_name": "Wallhaven Wallpaper Search",
+  "description": "Search and set wallpapers from Wallhaven",
+  "developer_name": "Emad",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.3
+  },
+  "preferences": [
+    {
+      "id": "keyword",
+      "type": "keyword",
+      "name": "Wallhaven",
+      "description": "Search wallpapers on Wallhaven",
+      "default_value": "wh"
+    },
+    {
+      "id": "results_limit",
+      "type": "select",
+      "name": "Results per search",
+      "default_value": "10",
+      "options": ["5", "10", "15", "20"]
+    },
+    {
+      "id": "min_resolution",
+      "type": "select",
+      "name": "Minimum Resolution",
+      "default_value": "auto",
+      "options": ["auto", "1920x1080", "2560x1440", "none"]
+    }
+  ]
+}
